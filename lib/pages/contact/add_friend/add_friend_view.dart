@@ -175,7 +175,11 @@ class _AddFriendPageState extends State<AddFriendPage> {
             ...logic.items.map((e) {
               return ClickEvent(
                 onTap: (){
-                  Func.scan();
+                  if(e[1] == "掃一掃"){
+                    Func.scan();
+                  }else{
+                    print("${e[1]}::Coming soon");
+                  }
                 },
                 child: Container(
                   color: Colors.white,

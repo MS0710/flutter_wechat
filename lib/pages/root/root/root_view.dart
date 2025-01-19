@@ -11,6 +11,7 @@ class RootPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
+    int msgCount = 0;
     return Scaffold(
       bottomNavigationBar: Obx((){
         return Stack(
@@ -51,6 +52,7 @@ class RootPage extends StatelessWidget {
               }).toList(),
             ),
 
+            if(msgCount > 0)
             Positioned(
               left: ((MediaQuery.of(context).size.width/4)/2)+2,
               child: Container(
@@ -59,9 +61,9 @@ class RootPage extends StatelessWidget {
                   color: Color(0xfffa5151),
                   borderRadius: BorderRadius.all(Radius.circular(18)),
                 ),
-                child: const Text(
-                  "22",
-                  style: TextStyle(
+                child: Text(
+                  "$msgCount",
+                  style: const TextStyle(
                     color: Color(0xffcfcfcf),
                     fontSize: 12,
                     fontWeight: FontWeight.w600,
