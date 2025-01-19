@@ -1,16 +1,5 @@
-# flutter_wechat
+Flutter仿照微信做的APP
 
-A new Flutter project.
+![Simulator Screenshot - iPhone 15 Pro - 2025-01-19 at 14 52 09](https://github.com/user-attachments/assets/732c81cd-e72d-4fd1-ace0-d2e372308595)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+        
