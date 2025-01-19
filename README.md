@@ -4,7 +4,7 @@ Flutter仿照微信做的APP
 
 | 首頁 | 微信頁面 | 
 | :----: | :----: |
-| <img src="images/首頁.png" width="30%"> | <img src="images/微信頁面.png" width="30%">|
+| <img src="images/首頁.png" width="50%"> | <img src="images/微信頁面.png" width="50%">|
 
 | 發現頁面 | 我頁面| 
 | :----: | :----: | 
